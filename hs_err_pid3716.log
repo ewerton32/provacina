@@ -1,0 +1,114 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (455843455054494F4E530E4350500134), pid=3716, tid=3952
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_01-b06 mixed mode, sharing)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00386000):  JavaThread "main" [_thread_in_vm, id=3952]
+
+Stack: [0x003a0000,0x003f0000)
+[error occurred during error reporting, step 110, id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.lang.ClassLoader.findBootstrapClass(Ljava/lang/String;)Ljava/lang/Class;+0
+j  java.lang.ClassLoader.findBootstrapClass0(Ljava/lang/String;)Ljava/lang/Class;+23
+j  java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;+32
+j  java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;+23
+j  sun.misc.Launcher$AppClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;+36
+j  java.lang.ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;+3
+j  java.util.ResourceBundle$RBClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;+10
+j  java.util.ResourceBundle$Control.newBundle(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/ClassLoader;Z)Ljava/util/ResourceBundle;+24
+j  java.util.ResourceBundle.loadBundle(Ljava/util/ResourceBundle$CacheKey;Ljava/util/List;Ljava/util/ResourceBundle$Control;Z)Ljava/util/ResourceBundle;+83
+j  java.util.ResourceBundle.findBundle(Ljava/util/ResourceBundle$CacheKey;Ljava/util/List;Ljava/util/List;ILjava/util/ResourceBundle$Control;Ljava/util/ResourceBundle;)Ljava/util/ResourceBundle;+317
+j  java.util.ResourceBundle.findBundle(Ljava/util/ResourceBundle$CacheKey;Ljava/util/List;Ljava/util/List;ILjava/util/ResourceBundle$Control;Ljava/util/ResourceBundle;)Ljava/util/ResourceBundle;+37
+j  java.util.ResourceBundle.getBundleImpl(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/ClassLoader;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;+187
+j  java.util.ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;+8
+j  java.awt.Toolkit$3.run()Ljava/lang/Object;+5
+v  ~StubRoutines::call_stub
+j  java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;+0
+j  java.awt.Toolkit.<clinit>()V+28
+v  ~StubRoutines::call_stub
+j  java.awt.Component.<clinit>()V+85
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x02a4cc00 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=2560]
+  0x02a48000 JavaThread "CompilerThread0" daemon [_thread_blocked, id=1088]
+  0x02a46c00 JavaThread "Attach Listener" daemon [_thread_blocked, id=3984]
+  0x02a46000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3136]
+  0x02a41800 JavaThread "Finalizer" daemon [_thread_blocked, id=5464]
+  0x02a3d400 JavaThread "Reference Handler" daemon [_thread_blocked, id=5656]
+=>0x00386000 JavaThread "main" [_thread_in_vm, id=3952]
+
+Other Threads:
+  0x02a34000 VMThread [id=3128]
+  0x02a4e400 WatcherThread [id=3772]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 232K [0x22960000, 0x22a60000, 0x22e40000)
+  eden space 896K,  25% used [0x22960000, 0x2299a080, 0x22a40000)
+  from space 64K,   0% used [0x22a40000, 0x22a40000, 0x22a50000)
+  to   space 64K,   0% used [0x22a50000, 0x22a50000, 0x22a60000)
+ tenured generation   total 4096K, used 0K [0x22e40000, 0x23240000, 0x26960000)
+   the space 4096K,   0% used [0x22e40000, 0x22e40000, 0x22e40200, 0x23240000)
+ compacting perm gen  total 12288K, used 41K [0x26960000, 0x27560000, 0x2a960000)
+   the space 12288K,   0% used [0x26960000, 0x2696a600, 0x2696a600, 0x27560000)
+    ro space 8192K,  62% used [0x2a960000, 0x2ae5e4e8, 0x2ae5e600, 0x2b160000)
+    rw space 12288K,  52% used [0x2b160000, 0x2b7a0e78, 0x2b7a1000, 0x2bd60000)
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\javaw.exe
+0x7c900000 - 0x7c9b4000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c8fe000 	C:\WINDOWS\system32\kernel32.dll
+0x77f50000 - 0x77ffb000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77db0000 - 0x77e41000 	C:\WINDOWS\system32\RPCRT4.dll
+0x7e360000 - 0x7e3f0000 	C:\WINDOWS\system32\USER32.dll
+0x77e50000 - 0x77e97000 	C:\WINDOWS\system32\GDI32.dll
+0x7c340000 - 0x7c396000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\msvcr71.dll
+0x6d7c0000 - 0x6da07000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\client\jvm.dll
+0x76b20000 - 0x76b4e000 	C:\WINDOWS\system32\WINMM.dll
+0x6d310000 - 0x6d318000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\hpi.dll
+0x76bd0000 - 0x76bdb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d770000 - 0x6d77c000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\verify.dll
+0x6d3b0000 - 0x6d3cf000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\java.dll
+0x6d7b0000 - 0x6d7bf000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\zip.dll
+0x6d000000 - 0x6d1c3000 	C:\Arquivos de programas\Java\jre1.6.0_01\bin\awt.dll
+0x72fb0000 - 0x72fd6000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x77bf0000 - 0x77c48000 	C:\WINDOWS\system32\msvcrt.dll
+0x76360000 - 0x7637d000 	C:\WINDOWS\system32\IMM32.dll
+0x774c0000 - 0x775fd000 	C:\WINDOWS\system32\ole32.dll
+
+VM Arguments:
+java_command: br.com.provacBeta.guiProvacina.TelaCriador
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Arquivos de programas\Arquivos comuns\Ahead\Lib\;C:\Arquivos de programas\Arquivos comuns\Ahead\Lib\;C:\Arquivos de programas\Arquivos comuns\Ahead\Lib\
+USERNAME=Kimera
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 7 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 1 family 6, cmov, cx8, fxsr, mmx, sse
+
+Memory: 4k page, physical 392688k(18444k free), swap 1140996k(6304k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_01-b06) for windows-x86, built on Mar 14 2007 00:24:02 by "java_re" with unknown MS VC++:1310
+

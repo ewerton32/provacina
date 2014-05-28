@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaProfile_1="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2" xmlns:Omondo_1="http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml2#_aZhLlH6MEdmbwasWWc4yvw http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml2#_zrN_1iUoEdmNXYQzyImvfA">
+  <uml:Class xmi:id="_qln1gegzEduTSoc3Cpct6Q" name="Fachada" clientDependency="_q1alAOgzEduTSoc3Cpct6Q _q1kWAegzEduTSoc3Cpct6Q _q1kWBOgzEduTSoc3Cpct6Q _q1tf8egzEduTSoc3Cpct6Q _q13Q8OgzEduTSoc3Cpct6Q _q13Q8-gzEduTSoc3Cpct6Q _q2BB8ugzEduTSoc3Cpct6Q _q2BB9egzEduTSoc3Cpct6Q _q2KL4ugzEduTSoc3Cpct6Q _q2T84ugzEduTSoc3Cpct6Q _q25ywegzEduTSoc3Cpct6Q _q387ougzEduTSoc3Cpct6Q _q4GFkegzEduTSoc3Cpct6Q _q4P2kugzEduTSoc3Cpct6Q _q4P2legzEduTSoc3Cpct6Q _q4ZnkugzEduTSoc3Cpct6Q _q4ZnlegzEduTSoc3Cpct6Q _q4ixgegzEduTSoc3Cpct6Q _q4ixhOgzEduTSoc3Cpct6Q _q4sigugzEduTSoc3Cpct6Q _q41scugzEduTSoc3Cpct6Q _q4_dcegzEduTSoc3Cpct6Q _q4_ddOgzEduTSoc3Cpct6Q _q5JOcugzEduTSoc3Cpct6Q _q5SYYegzEduTSoc3Cpct6Q _q5SYY-gzEduTSoc3Cpct6Q _q5cJYugzEduTSoc3Cpct6Q _q5cJZegzEduTSoc3Cpct6Q _q5l6YugzEduTSoc3Cpct6Q _q541UugzEduTSoc3Cpct6Q _q541VegzEduTSoc3Cpct6Q _q6B_QegzEduTSoc3Cpct6Q">
+    <ownedAttribute xmi:id="_qtEhUOgzEduTSoc3Cpct6Q" name="repositorioVacinacoes" visibility="private">
+      <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzerU-gzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzerUugzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtEhU-gzEduTSoc3Cpct6Q" name="usuario" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzerVegzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzerVOgzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtOSUegzEduTSoc3Cpct6Q" name="propriedades" visibility="private">
+      <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzerV-gzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzerVugzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtOSU-gzEduTSoc3Cpct6Q" name="instancia" visibility="private" isStatic="true" type="_qln1gegzEduTSoc3Cpct6Q">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzocUegzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzocUOgzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtOSVOgzEduTSoc3Cpct6Q" name="menuPrincipal" visibility="private" type="_qtXcQOgzEduTSoc3Cpct6Q">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzocU-gzEduTSoc3Cpct6Q" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzocUugzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtXcQegzEduTSoc3Cpct6Q" name="usuarios" visibility="private">
+      <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzocVugzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzocVegzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtXcQ-gzEduTSoc3Cpct6Q" name="vacinacoes" visibility="private">
+      <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzxmQegzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzxmQOgzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qtXcROgzEduTSoc3Cpct6Q" name="animais" visibility="private">
+      <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzxmQ-gzEduTSoc3Cpct6Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzxmQugzEduTSoc3Cpct6Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_qtXcRegzEduTSoc3Cpct6Q" name="removerVacinacao" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qvwB4OgzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qwDj4OgzEduTSoc3Cpct6Q" name="getMenuPrincipal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qwDj4egzEduTSoc3Cpct6Q" type="_qtXcQOgzEduTSoc3Cpct6Q" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qwDj4ugzEduTSoc3Cpct6Q" name="atualizarUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qwDj4-gzEduTSoc3Cpct6Q" name="usu">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qwWe0egzEduTSoc3Cpct6Q" name="atualizarPropriedade" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qwWe0ugzEduTSoc3Cpct6Q" name="pro">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qwpZwegzEduTSoc3Cpct6Q" name="setMenuPrincipal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qwpZwugzEduTSoc3Cpct6Q" name="menuPrincipal" type="_qtXcQOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qwpZw-gzEduTSoc3Cpct6Q" name="atualizarAnimal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qwpZxOgzEduTSoc3Cpct6Q" name="ani">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qw8UsOgzEduTSoc3Cpct6Q" name="getUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qw8UsegzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qw8UsugzEduTSoc3Cpct6Q" name="procurarAnimal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxGFsOgzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <ownedParameter xmi:id="_qxGFsegzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxGFsugzEduTSoc3Cpct6Q" name="Fachada" visibility="protected" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_qxGFs-gzEduTSoc3Cpct6Q" name="inserirVacinacao" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxP2sOgzEduTSoc3Cpct6Q" name="vac">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxZAoegzEduTSoc3Cpct6Q" name="procurarPropriedade" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxZAougzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <ownedParameter xmi:id="_qxZAo-gzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxixoOgzEduTSoc3Cpct6Q" name="removerAnimal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxixoegzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxixougzEduTSoc3Cpct6Q" name="setRepositorioVacinacoes" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxixo-gzEduTSoc3Cpct6Q" name="repositorioVacinacoes">
+        <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxixpOgzEduTSoc3Cpct6Q" name="obterInstancia" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxixpegzEduTSoc3Cpct6Q" type="_qln1gegzEduTSoc3Cpct6Q" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qxr7kOgzEduTSoc3Cpct6Q" name="inserirAnimal" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qxr7kegzEduTSoc3Cpct6Q" name="ani">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qx_dkOgzEduTSoc3Cpct6Q" name="inserirUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qx_dkegzEduTSoc3Cpct6Q" name="usu">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qyIngegzEduTSoc3Cpct6Q" name="initCadastro" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_qySYgOgzEduTSoc3Cpct6Q" name="getRepositorioVacinacoes" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qySYgegzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qySYgugzEduTSoc3Cpct6Q" name="procurarUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qySYg-gzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <ownedParameter xmi:id="_qySYhOgzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qySYhegzEduTSoc3Cpct6Q" name="setUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qySYhugzEduTSoc3Cpct6Q" name="usuario">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qycJgOgzEduTSoc3Cpct6Q" name="procurarVacinacao" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qycJgegzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <ownedParameter xmi:id="_qycJgugzEduTSoc3Cpct6Q" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qycJg-gzEduTSoc3Cpct6Q" name="inserirPropriedade" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qycJhOgzEduTSoc3Cpct6Q" name="pro">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qzU6UegzEduTSoc3Cpct6Q" name="removerPropriedade" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qzU6UugzEduTSoc3Cpct6Q" name="numEscritura" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qzU6U-gzEduTSoc3Cpct6Q" name="atualizarVacinacao" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qzU6VOgzEduTSoc3Cpct6Q" name="vac">
+        <type xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qzerUOgzEduTSoc3Cpct6Q" name="removerUsuario" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_qzerUegzEduTSoc3Cpct6Q" name="numero" type="_qRpwougzEduTSoc3Cpct6Q"/>
+      <raisedException xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_qRpwoOgzEduTSoc3Cpct6Q" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_qRpwougzEduTSoc3Cpct6Q" name="String" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q1HqEegzEduTSoc3Cpct6Q" name="System" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rX_GlOgzEduTSoc3Cpct6Q" name="Object"/>
+  </uml:Package>
+  <uml:Package xmi:id="_qtOSVegzEduTSoc3Cpct6Q" name="java.util">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qtXcQOgzEduTSoc3Cpct6Q" name="Collection" isAbstract="true"/>
+  </uml:Package>
+  <uml:Usage xmi:id="_qXddsOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qYD6oegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qaSvQOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qe6wkOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qfD6gugzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qfXcgugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qfgmcegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qfqXcugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qf9SYegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qjPP4OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qjYZ0ugzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qj-2wugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qkInwegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qkRxsugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_qkRxtOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q1alAOgzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q1kWAegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q1kWBOgzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q1tf8egzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q13Q8OgzEduTSoc3Cpct6Q" supplier="_q1HqEegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q"/>
+  <uml:Usage xmi:id="_q13Q8-gzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q2BB8ugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q2BB9egzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qbozEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q2KL4ugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q2T84ugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q25ywegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q387ougzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4GFkegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4P2kugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4P2legzEduTSoc3Cpct6Q" supplier="_qtXcQOgzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q"/>
+  <uml:Usage xmi:id="_q4ZnkugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4ZnlegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4ixgegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4ixhOgzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4sigugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qbV4IOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q41scugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4_dcegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q4_ddOgzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5JOcugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5SYYegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5SYY-gzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5cJYugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqE-gzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5cJZegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q5l6YugzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q"/>
+  <uml:Usage xmi:id="_q541UugzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q541VegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q6B_QegzEduTSoc3Cpct6Q" client="_qln1gegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q8uG4OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q83Q0ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q83Q1OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9BB0ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9Ky0ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9Ky1OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9T8wugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9T8xegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9dtwugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9dtxOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9m3sugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9wosugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_q9wotOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rC-f4egzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rDIQ4ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rDuGwugzEduTSoc3Cpct6Q" supplier="_q1HqEegzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rDuGxegzEduTSoc3Cpct6Q" supplier="_qln1gegzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rD33wugzEduTSoc3Cpct6Q" supplier="_qln1gegzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEBBsegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEBBtOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEKysugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEKytegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEUjsugzEduTSoc3Cpct6Q" supplier="_qtXcQOgzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEdtoegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rC0u4ugzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEdtpOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEneougzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeLJs-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEwokugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rEwolegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qeeEoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rE6ZkugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rE6ZlegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rC0u4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rFEKkugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqE-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rFEKlegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rC0u4egzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rFNUgugzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rFXFgugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rC-f4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rFXFhegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q_GsgOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rGQdYOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rGZnUegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rHAEQugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rHAERegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qln1gOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rHJOMugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rHJONegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_q1HqEugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rLKykOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rLUjkugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rLeUkugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rJFu8ugzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rLxPgOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rMEKcugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_rGGsYOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rOvrAOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rO5cAugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rPDNAegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rPDNBOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rPMW8ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rPWH8egzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q1HqEOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rQrksOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rQ1VsugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rQ_GsegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qyIngOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rQ_GtOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rRSBougzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rRSBpOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwWe0OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtXcQugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rVJ1AOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rSBogOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rVJ1A-gzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rSBogOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rVTmAugzEduTSoc3Cpct6Q" supplier="_qtXcQOgzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rSBogOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rVwR8OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_n6aMcOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rV5b4OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhUegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rZLZYOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_n9FtAOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rZLZY-gzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rZVKYugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rZeUUugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rSBogOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rb258OgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rcAq8ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rcAq9egzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rcKb8egzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rcTl4ugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rcTl5OgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rdppsOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rdpps-gzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxGFtOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rdyzougzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rdyzpOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qv5y4OgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rd8kougzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_reGVoegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qxZAoOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtEhUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rhXsEOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rhhdEugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qtOSUOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rhhdFegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_rfvUY-gzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rh-JAOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_rGGsYOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_riH6AugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qtEhVOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Package" href="platform:/resource/proVacina/.repository.uml2#_qR8rkegzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkDzsOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkM9oegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkM9o-gzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkWuougzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkWupegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkgfoegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rkppkOgzEduTSoc3Cpct6Q" supplier="_q1HqEegzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_q095EOgzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rl18YOgzEduTSoc3Cpct6Q" supplier="_qRpwougzEduTSoc3Cpct6Q">
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rl18Y-gzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qSGckOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rl_tYugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rl_tZOgzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qzU6UOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rmI3UugzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_rmSoUegzEduTSoc3Cpct6Q">
+    <supplier xmi:type="uml:Class" href="platform:/resource/proVacina/.repository.uml2#_qwpZwOgzEduTSoc3Cpct6Q"/>
+    <client xmi:type="uml:Interface" href="platform:/resource/proVacina/.repository.uml2#_qtOSUugzEduTSoc3Cpct6Q"/>
+  </uml:Usage>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7sOgzEduTSoc3Cpct6Q" base_Usage="_qXddsOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7segzEduTSoc3Cpct6Q" base_Element="_qXddsOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7sugzEduTSoc3Cpct6Q" base_Usage="_qYD6oegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7s-gzEduTSoc3Cpct6Q" base_Element="_qYD6oegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7tOgzEduTSoc3Cpct6Q" base_Usage="_qaSvQOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7tegzEduTSoc3Cpct6Q" base_Element="_qaSvQOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7tugzEduTSoc3Cpct6Q" base_Usage="_qe6wkOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7t-gzEduTSoc3Cpct6Q" base_Element="_qe6wkOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7uOgzEduTSoc3Cpct6Q" base_Usage="_qfD6gugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7uegzEduTSoc3Cpct6Q" base_Element="_qfD6gugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7uugzEduTSoc3Cpct6Q" base_Element="_qfXcgugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7u-gzEduTSoc3Cpct6Q" base_Usage="_qfgmcegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7vOgzEduTSoc3Cpct6Q" base_Element="_qfgmcegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7vegzEduTSoc3Cpct6Q" base_Element="_qfqXcugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7vugzEduTSoc3Cpct6Q" base_Usage="_qf9SYegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7v-gzEduTSoc3Cpct6Q" base_Element="_qf9SYegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7wOgzEduTSoc3Cpct6Q" base_Usage="_qjPP4OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7wegzEduTSoc3Cpct6Q" base_Element="_qjPP4OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7wugzEduTSoc3Cpct6Q" base_Usage="_qjYZ0ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7w-gzEduTSoc3Cpct6Q" base_Element="_qjYZ0ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7xOgzEduTSoc3Cpct6Q" base_Element="_qj-2wugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7xegzEduTSoc3Cpct6Q" base_Usage="_qkInwegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7xugzEduTSoc3Cpct6Q" base_Element="_qkInwegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7x-gzEduTSoc3Cpct6Q" base_Element="_qkRxsugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7yOgzEduTSoc3Cpct6Q" base_Usage="_qkRxtOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7yegzEduTSoc3Cpct6Q" base_Element="_qkRxtOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7yugzEduTSoc3Cpct6Q" base_Element="_q1alAOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7y-gzEduTSoc3Cpct6Q" base_Usage="_q1kWAegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7zOgzEduTSoc3Cpct6Q" base_Element="_q1kWAegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7zegzEduTSoc3Cpct6Q" base_Element="_q1kWBOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7zugzEduTSoc3Cpct6Q" base_Usage="_q1tf8egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7z-gzEduTSoc3Cpct6Q" base_Element="_q1tf8egzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb70OgzEduTSoc3Cpct6Q" base_Usage="_q13Q8OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb70egzEduTSoc3Cpct6Q" base_Element="_q13Q8OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb70ugzEduTSoc3Cpct6Q" base_Usage="_q13Q8-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb70-gzEduTSoc3Cpct6Q" base_Element="_q13Q8-gzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb71OgzEduTSoc3Cpct6Q" base_Usage="_q2BB8ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb71egzEduTSoc3Cpct6Q" base_Element="_q2BB8ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb71ugzEduTSoc3Cpct6Q" base_Usage="_q2BB9egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb71-gzEduTSoc3Cpct6Q" base_Element="_q2BB9egzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb72OgzEduTSoc3Cpct6Q" base_Usage="_q2KL4ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb72egzEduTSoc3Cpct6Q" base_Element="_q2KL4ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb72ugzEduTSoc3Cpct6Q" base_Element="_q2T84ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb72-gzEduTSoc3Cpct6Q" base_Usage="_q25ywegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb73OgzEduTSoc3Cpct6Q" base_Element="_q25ywegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb73egzEduTSoc3Cpct6Q" base_Element="_q387ougzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb73ugzEduTSoc3Cpct6Q" base_Usage="_q4GFkegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb73-gzEduTSoc3Cpct6Q" base_Element="_q4GFkegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb74OgzEduTSoc3Cpct6Q" base_Usage="_q4P2kugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb74egzEduTSoc3Cpct6Q" base_Element="_q4P2kugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb74ugzEduTSoc3Cpct6Q" base_Usage="_q4P2legzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb74-gzEduTSoc3Cpct6Q" base_Element="_q4P2legzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb75OgzEduTSoc3Cpct6Q" base_Usage="_q4ZnkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb75egzEduTSoc3Cpct6Q" base_Element="_q4ZnkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb75ugzEduTSoc3Cpct6Q" base_Element="_q4ZnlegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb75-gzEduTSoc3Cpct6Q" base_Usage="_q4ixgegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb76OgzEduTSoc3Cpct6Q" base_Element="_q4ixgegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb76egzEduTSoc3Cpct6Q" base_Usage="_q4ixhOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb76ugzEduTSoc3Cpct6Q" base_Element="_q4ixhOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb76-gzEduTSoc3Cpct6Q" base_Usage="_q4sigugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb77OgzEduTSoc3Cpct6Q" base_Element="_q4sigugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb77egzEduTSoc3Cpct6Q" base_Element="_q41scugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb77ugzEduTSoc3Cpct6Q" base_Usage="_q4_dcegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb77-gzEduTSoc3Cpct6Q" base_Element="_q4_dcegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb78OgzEduTSoc3Cpct6Q" base_Usage="_q4_ddOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb78egzEduTSoc3Cpct6Q" base_Element="_q4_ddOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb78ugzEduTSoc3Cpct6Q" base_Usage="_q5JOcugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb78-gzEduTSoc3Cpct6Q" base_Element="_q5JOcugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb79OgzEduTSoc3Cpct6Q" base_Element="_q5SYYegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb79egzEduTSoc3Cpct6Q" base_Usage="_q5SYY-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb79ugzEduTSoc3Cpct6Q" base_Element="_q5SYY-gzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb79-gzEduTSoc3Cpct6Q" base_Usage="_q5cJYugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7-OgzEduTSoc3Cpct6Q" base_Element="_q5cJYugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7-egzEduTSoc3Cpct6Q" base_Usage="_q5cJZegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7-ugzEduTSoc3Cpct6Q" base_Element="_q5cJZegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7--gzEduTSoc3Cpct6Q" base_Usage="_q5l6YugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7_OgzEduTSoc3Cpct6Q" base_Element="_q5l6YugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb7_egzEduTSoc3Cpct6Q" base_Usage="_q541UugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7_ugzEduTSoc3Cpct6Q" base_Element="_q541UugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb7_-gzEduTSoc3Cpct6Q" base_Element="_q541VegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8AOgzEduTSoc3Cpct6Q" base_Usage="_q6B_QegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8AegzEduTSoc3Cpct6Q" base_Element="_q6B_QegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8AugzEduTSoc3Cpct6Q" base_Usage="_q8uG4OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8A-gzEduTSoc3Cpct6Q" base_Element="_q8uG4OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8BOgzEduTSoc3Cpct6Q" base_Element="_q83Q0ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8BegzEduTSoc3Cpct6Q" base_Usage="_q83Q1OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8BugzEduTSoc3Cpct6Q" base_Element="_q83Q1OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8B-gzEduTSoc3Cpct6Q" base_Usage="_q9BB0ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8COgzEduTSoc3Cpct6Q" base_Element="_q9BB0ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8CegzEduTSoc3Cpct6Q" base_Element="_q9Ky0ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8CugzEduTSoc3Cpct6Q" base_Usage="_q9Ky1OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8C-gzEduTSoc3Cpct6Q" base_Element="_q9Ky1OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8DOgzEduTSoc3Cpct6Q" base_Usage="_q9T8wugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8DegzEduTSoc3Cpct6Q" base_Element="_q9T8wugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8DugzEduTSoc3Cpct6Q" base_Usage="_q9T8xegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8D-gzEduTSoc3Cpct6Q" base_Element="_q9T8xegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8EOgzEduTSoc3Cpct6Q" base_Element="_q9dtwugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8EegzEduTSoc3Cpct6Q" base_Usage="_q9dtxOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8EugzEduTSoc3Cpct6Q" base_Element="_q9dtxOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8E-gzEduTSoc3Cpct6Q" base_Usage="_q9m3sugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8FOgzEduTSoc3Cpct6Q" base_Element="_q9m3sugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8FegzEduTSoc3Cpct6Q" base_Element="_q9wosugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8FugzEduTSoc3Cpct6Q" base_Usage="_q9wotOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8F-gzEduTSoc3Cpct6Q" base_Element="_q9wotOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8GOgzEduTSoc3Cpct6Q" base_Usage="_rC-f4egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8GegzEduTSoc3Cpct6Q" base_Element="_rC-f4egzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8GugzEduTSoc3Cpct6Q" base_Usage="_rDIQ4ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8G-gzEduTSoc3Cpct6Q" base_Element="_rDIQ4ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8HOgzEduTSoc3Cpct6Q" base_Usage="_rDuGwugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8HegzEduTSoc3Cpct6Q" base_Element="_rDuGwugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8HugzEduTSoc3Cpct6Q" base_Usage="_rDuGxegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8H-gzEduTSoc3Cpct6Q" base_Element="_rDuGxegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8IOgzEduTSoc3Cpct6Q" base_Usage="_rD33wugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8IegzEduTSoc3Cpct6Q" base_Element="_rD33wugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8IugzEduTSoc3Cpct6Q" base_Usage="_rEBBsegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8I-gzEduTSoc3Cpct6Q" base_Element="_rEBBsegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8JOgzEduTSoc3Cpct6Q" base_Usage="_rEBBtOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8JegzEduTSoc3Cpct6Q" base_Element="_rEBBtOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8JugzEduTSoc3Cpct6Q" base_Usage="_rEKysugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8J-gzEduTSoc3Cpct6Q" base_Element="_rEKysugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8KOgzEduTSoc3Cpct6Q" base_Usage="_rEKytegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8KegzEduTSoc3Cpct6Q" base_Element="_rEKytegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8KugzEduTSoc3Cpct6Q" base_Usage="_rEUjsugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8K-gzEduTSoc3Cpct6Q" base_Element="_rEUjsugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8LOgzEduTSoc3Cpct6Q" base_Usage="_rEdtoegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8LegzEduTSoc3Cpct6Q" base_Element="_rEdtoegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8LugzEduTSoc3Cpct6Q" base_Usage="_rEdtpOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8L-gzEduTSoc3Cpct6Q" base_Element="_rEdtpOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8MOgzEduTSoc3Cpct6Q" base_Usage="_rEneougzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8MegzEduTSoc3Cpct6Q" base_Element="_rEneougzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8MugzEduTSoc3Cpct6Q" base_Usage="_rEwokugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8M-gzEduTSoc3Cpct6Q" base_Element="_rEwokugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8NOgzEduTSoc3Cpct6Q" base_Usage="_rEwolegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8NegzEduTSoc3Cpct6Q" base_Element="_rEwolegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8NugzEduTSoc3Cpct6Q" base_Usage="_rE6ZkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8N-gzEduTSoc3Cpct6Q" base_Element="_rE6ZkugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8OOgzEduTSoc3Cpct6Q" base_Usage="_rE6ZlegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8OegzEduTSoc3Cpct6Q" base_Element="_rE6ZlegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8OugzEduTSoc3Cpct6Q" base_Usage="_rFEKkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8O-gzEduTSoc3Cpct6Q" base_Element="_rFEKkugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8POgzEduTSoc3Cpct6Q" base_Usage="_rFEKlegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8PegzEduTSoc3Cpct6Q" base_Element="_rFEKlegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8PugzEduTSoc3Cpct6Q" base_Usage="_rFNUgugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8P-gzEduTSoc3Cpct6Q" base_Element="_rFNUgugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8QOgzEduTSoc3Cpct6Q" base_Usage="_rFXFgugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8QegzEduTSoc3Cpct6Q" base_Element="_rFXFgugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8QugzEduTSoc3Cpct6Q" base_Usage="_rFXFhegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8Q-gzEduTSoc3Cpct6Q" base_Element="_rFXFhegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8ROgzEduTSoc3Cpct6Q" base_Usage="_rGQdYOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8RegzEduTSoc3Cpct6Q" base_Element="_rGQdYOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8RugzEduTSoc3Cpct6Q" base_Usage="_rGZnUegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8R-gzEduTSoc3Cpct6Q" base_Element="_rGZnUegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8SOgzEduTSoc3Cpct6Q" base_Usage="_rHAEQugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8SegzEduTSoc3Cpct6Q" base_Element="_rHAEQugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8SugzEduTSoc3Cpct6Q" base_Usage="_rHAERegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8S-gzEduTSoc3Cpct6Q" base_Element="_rHAERegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8TOgzEduTSoc3Cpct6Q" base_Usage="_rHJOMugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8TegzEduTSoc3Cpct6Q" base_Element="_rHJOMugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8TugzEduTSoc3Cpct6Q" base_Usage="_rHJONegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8T-gzEduTSoc3Cpct6Q" base_Element="_rHJONegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8UOgzEduTSoc3Cpct6Q" base_Usage="_rLKykOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8UegzEduTSoc3Cpct6Q" base_Element="_rLKykOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8UugzEduTSoc3Cpct6Q" base_Usage="_rLUjkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8U-gzEduTSoc3Cpct6Q" base_Element="_rLUjkugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8VOgzEduTSoc3Cpct6Q" base_Usage="_rLeUkugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8VegzEduTSoc3Cpct6Q" base_Element="_rLeUkugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8VugzEduTSoc3Cpct6Q" base_Usage="_rLxPgOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8V-gzEduTSoc3Cpct6Q" base_Element="_rLxPgOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8WOgzEduTSoc3Cpct6Q" base_Usage="_rMEKcugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8WegzEduTSoc3Cpct6Q" base_Element="_rMEKcugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8WugzEduTSoc3Cpct6Q" base_Usage="_rOvrAOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8W-gzEduTSoc3Cpct6Q" base_Element="_rOvrAOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8XOgzEduTSoc3Cpct6Q" base_Element="_rO5cAugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8XegzEduTSoc3Cpct6Q" base_Usage="_rPDNAegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8XugzEduTSoc3Cpct6Q" base_Element="_rPDNAegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8X-gzEduTSoc3Cpct6Q" base_Usage="_rPDNBOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8YOgzEduTSoc3Cpct6Q" base_Element="_rPDNBOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8YegzEduTSoc3Cpct6Q" base_Element="_rPMW8ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8YugzEduTSoc3Cpct6Q" base_Usage="_rPWH8egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8Y-gzEduTSoc3Cpct6Q" base_Element="_rPWH8egzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8ZOgzEduTSoc3Cpct6Q" base_Usage="_rQrksOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8ZegzEduTSoc3Cpct6Q" base_Element="_rQrksOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8ZugzEduTSoc3Cpct6Q" base_Element="_rQ1VsugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8Z-gzEduTSoc3Cpct6Q" base_Usage="_rQ_GsegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8aOgzEduTSoc3Cpct6Q" base_Element="_rQ_GsegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8aegzEduTSoc3Cpct6Q" base_Usage="_rQ_GtOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8augzEduTSoc3Cpct6Q" base_Element="_rQ_GtOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8a-gzEduTSoc3Cpct6Q" base_Element="_rRSBougzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8bOgzEduTSoc3Cpct6Q" base_Usage="_rRSBpOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8begzEduTSoc3Cpct6Q" base_Element="_rRSBpOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8bugzEduTSoc3Cpct6Q" base_Usage="_rVJ1AOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8b-gzEduTSoc3Cpct6Q" base_Element="_rVJ1AOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8cOgzEduTSoc3Cpct6Q" base_Usage="_rVJ1A-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8cegzEduTSoc3Cpct6Q" base_Element="_rVJ1A-gzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8cugzEduTSoc3Cpct6Q" base_Usage="_rVTmAugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8c-gzEduTSoc3Cpct6Q" base_Element="_rVTmAugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8dOgzEduTSoc3Cpct6Q" base_Usage="_rVwR8OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8degzEduTSoc3Cpct6Q" base_Element="_rVwR8OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8dugzEduTSoc3Cpct6Q" base_Usage="_rV5b4OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8d-gzEduTSoc3Cpct6Q" base_Element="_rV5b4OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8eOgzEduTSoc3Cpct6Q" base_Usage="_rZLZYOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8eegzEduTSoc3Cpct6Q" base_Element="_rZLZYOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8eugzEduTSoc3Cpct6Q" base_Usage="_rZLZY-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8e-gzEduTSoc3Cpct6Q" base_Element="_rZLZY-gzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8fOgzEduTSoc3Cpct6Q" base_Usage="_rZVKYugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8fegzEduTSoc3Cpct6Q" base_Element="_rZVKYugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8fugzEduTSoc3Cpct6Q" base_Usage="_rZeUUugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8f-gzEduTSoc3Cpct6Q" base_Element="_rZeUUugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8gOgzEduTSoc3Cpct6Q" base_Usage="_rb258OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8gegzEduTSoc3Cpct6Q" base_Element="_rb258OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8gugzEduTSoc3Cpct6Q" base_Usage="_rcAq8ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8g-gzEduTSoc3Cpct6Q" base_Element="_rcAq8ugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8hOgzEduTSoc3Cpct6Q" base_Element="_rcAq9egzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8hegzEduTSoc3Cpct6Q" base_Usage="_rcKb8egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8hugzEduTSoc3Cpct6Q" base_Element="_rcKb8egzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8h-gzEduTSoc3Cpct6Q" base_Element="_rcTl4ugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8iOgzEduTSoc3Cpct6Q" base_Usage="_rcTl5OgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8iegzEduTSoc3Cpct6Q" base_Element="_rcTl5OgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8iugzEduTSoc3Cpct6Q" base_Usage="_rdppsOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8i-gzEduTSoc3Cpct6Q" base_Element="_rdppsOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8jOgzEduTSoc3Cpct6Q" base_Usage="_rdpps-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8jegzEduTSoc3Cpct6Q" base_Element="_rdpps-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8jugzEduTSoc3Cpct6Q" base_Element="_rdyzougzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8j-gzEduTSoc3Cpct6Q" base_Usage="_rdyzpOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8kOgzEduTSoc3Cpct6Q" base_Element="_rdyzpOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8kegzEduTSoc3Cpct6Q" base_Element="_rd8kougzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8kugzEduTSoc3Cpct6Q" base_Usage="_reGVoegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8k-gzEduTSoc3Cpct6Q" base_Element="_reGVoegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8lOgzEduTSoc3Cpct6Q" base_Usage="_rhXsEOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8legzEduTSoc3Cpct6Q" base_Element="_rhXsEOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8lugzEduTSoc3Cpct6Q" base_Usage="_rhhdEugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8l-gzEduTSoc3Cpct6Q" base_Element="_rhhdEugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8mOgzEduTSoc3Cpct6Q" base_Usage="_rhhdFegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8megzEduTSoc3Cpct6Q" base_Element="_rhhdFegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8mugzEduTSoc3Cpct6Q" base_Usage="_rh-JAOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8m-gzEduTSoc3Cpct6Q" base_Element="_rh-JAOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8nOgzEduTSoc3Cpct6Q" base_Usage="_riH6AugzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8negzEduTSoc3Cpct6Q" base_Element="_riH6AugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8nugzEduTSoc3Cpct6Q" base_Usage="_rkDzsOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8n-gzEduTSoc3Cpct6Q" base_Element="_rkDzsOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8oOgzEduTSoc3Cpct6Q" base_Element="_rkM9oegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8oegzEduTSoc3Cpct6Q" base_Usage="_rkM9o-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8ougzEduTSoc3Cpct6Q" base_Element="_rkM9o-gzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8o-gzEduTSoc3Cpct6Q" base_Usage="_rkWuougzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8pOgzEduTSoc3Cpct6Q" base_Element="_rkWuougzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8pegzEduTSoc3Cpct6Q" base_Element="_rkWupegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8pugzEduTSoc3Cpct6Q" base_Usage="_rkgfoegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8p-gzEduTSoc3Cpct6Q" base_Element="_rkgfoegzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Access xmi:id="_7wb8qOgzEduTSoc3Cpct6Q" base_Usage="_rkppkOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8qegzEduTSoc3Cpct6Q" base_Element="_rkppkOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8qugzEduTSoc3Cpct6Q" base_Usage="_rl18YOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8q-gzEduTSoc3Cpct6Q" base_Element="_rl18YOgzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8rOgzEduTSoc3Cpct6Q" base_Usage="_rl18Y-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8regzEduTSoc3Cpct6Q" base_Element="_rl18Y-gzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8rugzEduTSoc3Cpct6Q" base_Element="_rl_tYugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8r-gzEduTSoc3Cpct6Q" base_Usage="_rl_tZOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8sOgzEduTSoc3Cpct6Q" base_Element="_rl_tZOgzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8segzEduTSoc3Cpct6Q" base_Element="_rmI3UugzEduTSoc3Cpct6Q"/>
+  <Omondo_1:Omondo__Import xmi:id="_7wb8sugzEduTSoc3Cpct6Q" base_Usage="_rmSoUegzEduTSoc3Cpct6Q"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_7wb8s-gzEduTSoc3Cpct6Q" base_Element="_rmSoUegzEduTSoc3Cpct6Q"/>
+  <uml:Package xmi:id="_7wb8tOgzEduTSoc3Cpct6Q" name="MyProfiles">
+    <profileApplication xmi:id="_nOTUYOgzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOTUYegzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml2#_zrN_1iUoEdmNXYQzyImvfA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml2#_zrN_0iUoEdmNXYQzyImvfA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nOmPUOgzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOmPUegzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml2#_aZhLlH6MEdmbwasWWc4yvw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml2#_aZhLkH6MEdmbwasWWc4yvw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nOmPUugzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOmPU-gzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml2#_P2MmwWVyEdmLjaVkDjVh5g"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml2#_14txEWVxEdmLjaVkDjVh5g"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nOmPVOgzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOmPVegzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nOmPVugzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOmPV-gzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nOmPWOgzEduTSoc3Cpct6Q">
+      <eAnnotations xmi:id="_nOmPWegzEduTSoc3Cpct6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_dhEUENSUEdqN9tnr0j3PAQ"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Package>
+</xmi:XMI>
